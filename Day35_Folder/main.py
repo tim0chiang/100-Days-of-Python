@@ -5,8 +5,8 @@ api_key = 'example'
 
 OWM_Endpoint = 'https://api.openweathermap.org/data/2.5/onecall'
 CHECKING_HOURS = 12
-account_sid = 'AC9ee8e5c0058af860b6a5752774711051'
-auth_token = '004208410693fe3062867084a5b6b20c'
+account_sid = 'ex2'
+auth_token = 'ex3'
 
 weather_parameters = {
     'lat': 49.219608,
@@ -33,3 +33,4 @@ if len(all_conditions) != 0:
         to='778-882-7017'
     )
     print(message.status)
+
